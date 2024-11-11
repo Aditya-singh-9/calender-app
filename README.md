@@ -141,27 +141,6 @@ const MyCalendar = (props) => (
     />
   </div>
 )
-```
 
-## Custom Styling
-
-Out of the box, you can include the compiled CSS files and be up and running. But, sometimes, you may want to style
-Big Calendar to match your application styling. For this reason, SASS files are included with Big Calendar.
-
-```
-  @import 'react-big-calendar/lib/sass/styles';
-  @import 'react-big-calendar/lib/addons/dragAndDrop/styles'; // if using DnD
-```
-
-SASS implementation provides a `variables` file containing color and sizing variables that you can
-update to fit your application. _Note:_ Changing and/or overriding styles can cause rendering issues with your
-Big Calendar. Carefully test each change accordingly.
-
-## Join The Community
-
-Help us improve Big Calendar! Join us on [Slack](https://join.slack.com/t/bigcalendar/shared_invite/zt-2tjko9jqq-ZeXs1U01zulNM~FRU9YTFA).
-(Slack invite links do expire. If you can't get in, just file an issue and we'll get a new link.)
-
-## Translations
 
 - [العربية](/docs/README-ar.md)
